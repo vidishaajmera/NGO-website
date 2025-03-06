@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Helping Hands Club</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: times new roman,'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+  .project-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 20px;
+    justify-items: center; 
+}
+
+        .logo img {
+            max-width: 100px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+    
+        .projects {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .project-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* Display 3 items per row */
+            gap: 20px;
+        }
+        .project-box {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+        .project-box img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .project-box p {
+            margin-bottom: 15px;
+        }
+        .project-box button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .project-box button:hover {
+            background-color: #0056b3;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Helping Hands Club Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index2.html">Home</a></li>
+                <li><a href="about2.html">About Us</a></li>
+                <li><a href="projectsss.html">Projects</a></li>
+                <li><a href="team.html">Team</a></li>
+				<li><a href="fundraisers2.html">Fundraisers</a></li>
+								<li><a href="blog.html">Our Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="projects">
+        <h2>Our Projects</h2>
+        <div class="project-container">
+            <div class="project-box">
+                <img src="teentech.png" alt="Teen Tech Tutor">
+                <p>Teen Tech Tutors is a project where members help senior citizens learn technological skills.</p>
+                <button onclick="location.href='project1.html'">Read More</button>
+            </div>
+		
+            <div class="project-box">
+                <img src="gallery2.png" alt="Women in STEM Interview Series">
+                <p>In today's world, where STEM is becoming increasingly prevalent, we are connecting with women professionals.</p>
+                <button onclick="location.href='project2.html'">Read More</button>
+            </div>
+		
+            <div class="project-box">
+                <img src="gallery8.png" alt="Workshop with Angel Express">
+                <p>Collaborating with Shespires, this two-day event was in partnership with Angel Xpress NGO.</p>
+                <button onclick="location.href='project3.html'">Read More</button>
+            </div>
+		
+            <div class="project-box">
+                <img src="img10.jpg" alt="A Step Of Change">
+                <p>In light of the UN COP27 Conference, HHC organized a climate awareness drive, “Step for a Change.”</p>
+                <button onclick="location.href='project4.html'">Read More</button>
+            </div>
+	
+            <div class="project-box">
+                <img src="jogathon.png" alt="Lockdown Series">
+                <p>During the COVID period in 2020, the HHC created a lockdown series discussing relevant pandemic topics.</p>
+                <button onclick="location.href='project5.html'">Read More</button>
+            </div>
+        </div>
+    </section>
+
+     <footer>
+        <p>
+            <a href="https://www.youtube.com/@TheHelpingHandsClub" target="_blank">YouTube</a> |
+            <a href="https://www.instagram.com/thehelpinghands.club?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">Instagram</a>
+        </p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>NGO Aangha - Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+	<style>
+        .half-page-vertical {
+            height: 110vh; /* Half of the viewport height */
+        }
+        .contact-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+        }
+        .contact-info {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            
+        }
+        .navbar-nav {
+            margin: 0 auto; /* Center align the navbar */
+        }
+	
+
+.hero h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1rem;
+}
+
+.hero-buttons {
+    margin-top: 10px;
+}
+
+.hero button {
+    margin: 5px;
+    padding: 8px 16px;
+    background: #9370db;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family:times new roman, 'Arial', sans-serif;
+}
+
+.hero button:hover {
+    background: #6a5acd;
+}
+
+
+
+section {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #6a5acd;
+}
+
+.founders, .project, .fundraiser {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    background:#fff;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.logo {
+    height: 80px;
+    width: 80px;
+}
+
+
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(to right, #8f04f9, #8e44ad);
+    color: white;
+    height: 4%;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero-buttons button {
+    background-color: #fff;
+    color: #8f04f9;
+    border: none;
+    padding: 15px 30px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.hero-buttons button:hover {
+    background-color: #ddd;
+}
+
+}
+
+.navbar-nav .nav-link {
+    color: white ;
+    padding: 15px;
+    transition: background-color 0.3s;
+}
+
+
+
+section {
+    padding: 40px 20px;
+    margin: 20px 0;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #8f04f9;
+    margin-bottom: 20px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+
+.st{
+    display: flex;
+    flex-direction: row;
+}
+.rev{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.txtp{
+    width: 70%;
+    padding-right: 50px;
+}
+.padr{
+    width: 90%;
+}
+.thumbnail{
+    margin-left: 150px;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+/* Text Section */
+.txtp, .textp {
+    flex: 1;
+    padding: 7px;
+}
+
+/* Thumbnail and Image Sections */
+.thumbnail, .thumbnail1, .imgr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thumbnail img, .imgr img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Reverse Layout for "rev" class */
+.project.rev {
+    flex-direction: row-reverse;
+}
+.ac{
+    align-items: center;
+    }
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 768px) {
+    .project {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project.rev {
+        flex-direction: column;
+    }
+
+    .thumbnail img, .imgr img {
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .txtp, .textp {
+        padding: 5px;
+    }
+
+    .thumbnail img, .imgr img {
+        max-width: 90%;
+    }
+}
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Helping Hands Club Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index2.html">Home</a></li>
+                <li><a href="about2.html">About Us</a></li>
+                <li><a href="projectsss.html">Projects</a></li>
+                <li><a href="team.html">Team</a></li>
+				                <li><a href="fundraisers2.html">Fundraisers</a></li>
+				<li><a href="blog.html">Our Blog</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<section class="container half-page-vertical">
+        <div class="row">
+            <div class="col-md-6 contact-section">
+                <div class="w-100">
+                    <h2>Send Us a Message</h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject:</label>
+                            <input type="text" class="form-control" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-6 contact-info">
+                <div class="w-100 text-left">
+                    <h2>Contact Us</h2>
+                    <p> <img src="insta.jpg" alt=""> Instagram: <a href="https://instagram.com/thehelpinghands.club" target="_blank">@thehelpinghands.club</a></p>
+                    <p> <img src="gmail.jpg" alt="">  Email: <a href="mailto:thehelpinghandsclub18@gmail.com">thehelpinghandsclub18@gmail.com</a></p>
+                    <p> <img src="youtube.jpg" alt="">   YouTube: <a href="https://www.youtube.com/@TheHelpingHandsClub" target="_blank">youtube.com/@TheHelpingHandsClub</a></p>
+                		                <img src="help.png" height="300" width="400"  alt="Team Photo">
+
+</div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+	    
+        <p>
+            <a href="https://www.youtube.com/@TheHelpingHandsClub" target="_blank">YouTube</a> |
+            <a href="https://www.instagram.com/thehelpinghands.club?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">Instagram</a>
+        </p>
+        <p>&copy; 2024 The Helping Hands Club. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        (function(){
+            emailjs.init("z25k1_IPEUf8THpkX");
+        })();
+
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            // Collect form data
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+
+            // Send email using EmailJS
+            emailjs.send("service_8bq8xjk", "template_2cgzc1k", {
+                name: name,
+                email: email,
+                message: message
+            }).then(function(response) {
+                console.log('Email sent successfully!', response.status, response.text);
+                alert('Email sent successfully!');
+                clearForm();
+            }, function(error) {
+                console.log('Failed to send email.', error);
+                alert('Failed to send email.');
+            });
+            function clearForm() {
+            document.getElementById('contactForm').reset();
+        }
+        });
+    </script>
+</body>
+</html>

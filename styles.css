@@ -1,0 +1,346 @@
+body {
+    font-family: times new roman, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4b0082;
+    padding: 1rem 2rem;
+    color: white;
+}
+
+.logo img {
+    height: 150px width: 140px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background 0.3s;
+    border-radius: 4px;
+}
+
+nav ul li a:hover {
+    background-color: #6a0dad;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+section h2 {
+    color: #4b0082;
+    margin-bottom: 1rem;
+}
+
+.intro p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+    <style>
+        .half-page-vertical {
+            height: 110vh; /* Half of the viewport height */
+        }
+        .contact-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+        }
+        .contact-info {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+        }
+    </style>
+.projects .project-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.projects .project-box {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+.projectsss .project-box {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+.projectsss .project-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+.projectsss .project-box img {
+    width: 70%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.projects .project-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.projects .project-box p {
+    margin: 1rem 0;
+}
+
+.projects .project-box button {
+    background-color: #4b0082;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.projects .project-box button:hover {
+    background-color: #6a0dad;
+}
+
+.projectsss .project-box p {
+    margin: 1rem 0;
+}
+
+.projectsss .project-box button {
+    background-color: #4b0082;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.projectsss .project-box button:hover {
+    background-color: #6a0dad;
+}
+
+.join-us button {
+    background-color: #4b0082;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-size: 1.2rem;
+}
+
+.join-us button:hover {
+    background-color: #6a0dad;
+}
+
+.feedback-carousel {
+    display: flex;
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.feedback-box {
+    flex: 1;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 0 1rem;
+}
+
+.carousel-button {
+    background-color: #4b0082;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.carousel-button:hover {
+    background-color: #6a0dad;
+}
+
+footer {
+    background-color: #4b0082;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.tab {
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+    margin: 2rem 0;
+}
+
+.tab button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 1rem 1.5rem;
+    transition: background 0.3s;
+}
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+.tab button.active {
+    background-color: #4b0082;
+    color: white;
+}
+
+.tabcontent {
+    display: none;
+    padding: 2rem;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4b0082;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.team {
+    padding: 2rem;
+    text-align: center;
+}
+
+.team h2 {
+    color: #4b0082;
+    margin-bottom: 1rem;
+}
+
+.tab {
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+}
+
+.tab button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+}
+
+.tabcontent.active {
+    display: block;
+}
+
+.team-member {
+    display: flex;
+    align-items: flex-start;
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.photo-box {
+    flex: 0 0 150px;
+    text-align: center;
+}
+
+.photo-box img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.member-details {
+    flex: 1;
+    padding-left: 1rem;
+}
+
+.member-details h4 {
+    margin-top: 0;
+}
+
+.member-details p {
+    margin: 0.5rem 0;
+}
+

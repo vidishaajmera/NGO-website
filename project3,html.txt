@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workshop with Angel Express - Helping Hands Club</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Helping Hands Club Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="project-detail">
+        <h2>Workshop with Angel Express</h2>
+        <img src="project3.jpg" alt="Workshop with Angel Express">
+        <p>Collaborating with Shespires, this two-day event was in partnership with Angel Xpress NGO. The workshop was aimed at empowering children from underprivileged backgrounds with knowledge and skills that would help them in their future endeavors.</p>
+        <p>Through interactive sessions, games, and activities, we were able to engage the children in a meaningful way. The workshop covered various topics, including education, health, and personal development. We are committed to continuing our support for these children and look forward to organizing more such events in the future.</p>
+        <img src="project3_detail.jpg" alt="Workshop with Angel Express Detailed Image">
+    </section>
+
+    <footer>
+        <p>Contact us: <a href="mailto:info@ngo.org">info@ngo.org</a></p>
+        <p>
+            <a href="https://youtube.com" target="_blank">YouTube</a> |
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+        </p>
+    </footer>
+</body>
+</html>
